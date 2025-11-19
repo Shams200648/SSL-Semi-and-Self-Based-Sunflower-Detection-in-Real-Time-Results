@@ -2,7 +2,7 @@ names:
 - Sunflower
 - Sunflower
 nc: 2
-path: D:\EWU\10th Semester\CSE475\LABS\ASSIGNMENT\Converted_Dataset
+path: /kaggle/working/New_Converted_Dataset
 test: test/images
 train: train/images
 val: valid/images
