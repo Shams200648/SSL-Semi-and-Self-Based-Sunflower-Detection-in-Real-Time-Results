@@ -2,7 +2,7 @@
 
 This repository contains the **result files, configuration files, SSL model outputs, ablation studies, and a Streamlit-based dashboard** for visualizing and comparing supervised, semi-supervised, and self-supervised sunflower detection experiments.
 
-⚠️ **This repo is result-only** — it does not contain training scripts.  
+⚠️ **This repo contains scripts and results**  
 All folders store outputs generated from YOLO/SSL experiments on a COCO-formatted sunflower dataset.
 
 
