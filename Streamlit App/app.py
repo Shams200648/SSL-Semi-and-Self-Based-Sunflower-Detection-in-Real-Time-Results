@@ -26,7 +26,7 @@ exp_dirs = [d for d in RUNS_DIR.iterdir() if d.is_dir()]
 custom_labels = [
     "BYOL-YOLOv10s", "BYOL-YOLOv11s", "BYOL-YOLOv12s",
     "PSEUDO-STACK-(10-90)", "PSEUDO-STACK-(20-80)", "PSEUDO-STACK-(30-70)",
-    "PSEUDO-STACK-(40-60)", "Shayma_byol_yolo11s",
+    "PSEUDO-STACK-(40-60)",
     "DINO-YOLOv10s", "DINO-YOLOv11s", "DINO-YOLOv12s"
 ]
 exp_choice_label = st.sidebar.selectbox("🌟 Choose SSL Experiment", custom_labels)
