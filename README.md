@@ -5,41 +5,6 @@ This repository contains the **result files, configuration files, SSL model outp
 ⚠️ **This repo is result-only** — it does not contain training scripts.  
 All folders store outputs generated from YOLO/SSL experiments on a COCO-formatted sunflower dataset.
 
----
-
-## 📁 Repository Structure
-
-**BaseLine Models/**
-  │--> Sunflower_Dataset_ASSIGNMENT_.
-  │--> sunflower-dataset-assignment-*.txt
-  │
-  Data Configuration/
-  │--> data_Sunflower.yaml
-  │
-  SSL Models/
-  │
-  ├ -->Ablation Study/
-  │ (metrics, logs, comparison outputs)
-  │
-  ├── BYOL/
-  │ -->(self-supervised BYOL backbone results)
-  │
-  ├── DINO/
-  │ -->(self-supervised DINO backbone results)
-  │
-  └── PSEUDO_STAC/
-    -->(semi-supervised pseudo-labeling results)
-  │
-  Streamlit App/
-  │--> runs_ssl/ # model output folders for dashboard
-  │--> app.py # Streamlit dashboard
-  │--> requirements.txt # dependencies
-  │--> packages.txt
-  │--> run_ssl_dashboard.bat # one-click launch script (Windows)
-  │--> .gitignore
-
-
----
 
 ## 🧪 What This Repository Contains
 
