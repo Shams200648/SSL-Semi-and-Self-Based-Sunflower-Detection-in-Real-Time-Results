@@ -46,9 +46,15 @@ SSL Models/
 
 ### **4️⃣ Streamlit Dashboard**
 Found in:
-
+```lua
 Streamlit App/
-
+│ ├── runs_ssl/ # model output folders for dashboard
+│ ├── app.py # Streamlit dashboard
+│ ├── requirements.txt # dependencies
+│ ├── packages.txt
+│ ├── run_ssl_dashboard.bat # one-click run script (Windows)
+│ └── .gitignore
+```
 This is a **fully interactive visualization dashboard** for comparing:
 
 - Semi-Supervised and SSL performace through best.pt files
