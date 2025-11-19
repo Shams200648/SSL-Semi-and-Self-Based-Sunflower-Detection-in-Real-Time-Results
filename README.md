@@ -13,16 +13,16 @@ Located in:
 
 BaseLine Models/ ---> .ipynb files of baseline supervised models
 
-  -- YOLOv10s
-  -- YOLO11s
-  -- YOLO12s
-  -- RF-DETR nano
+  - YOLOv10s
+  - YOLO11s
+  - YOLO12s
+  - RF-DETR nano
 
 ### **2️⃣ Dataset Configuration**
 Data Configuration/data_Sunflower.yaml ---> contains the transformed yaml file after transformation from COCO to YOLO
 
 data_Sunflower.yaml
-
+```yaml
   names:
   - Sunflower
   - Sunflower
@@ -31,6 +31,8 @@ data_Sunflower.yaml
   test: test/images
   train: train/images
   val: valid/images
+```
+
 
 ### **3️⃣ SSL Model Results**
 Stored inside:
