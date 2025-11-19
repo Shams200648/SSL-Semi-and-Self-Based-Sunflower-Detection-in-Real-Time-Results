@@ -36,13 +36,13 @@ data_Sunflower.yaml
 
 ### **3️⃣ SSL Model Results**
 Stored inside:
-
+```lua
 SSL Models/
 │── Ablation Study/ ---> Contains different hyperparameter based best SSL performence
 │── BYOL/ ---> Contains YOLO backbone based model file
 │── DINO/ ---> Contains YOLO backbone based model file
 └── PSEUDO_STAC/ ---> Contains best YOLO backbone based model file for different label ratio
-
+```
 
 ### **4️⃣ Streamlit Dashboard**
 Found in:
