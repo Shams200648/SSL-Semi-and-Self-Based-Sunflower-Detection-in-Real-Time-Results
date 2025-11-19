@@ -9,7 +9,7 @@ All folders store outputs generated from YOLO/SSL experiments on a COCO-formatte
 
 ## 📁 Repository Structure
 
-BaseLine Models/
+**BaseLine Models/**
 │ Sunflower_Dataset_ASSIGNMENT_.
 │ sunflower-dataset-assignment-*.txt
 │
